@@ -1,0 +1,6 @@
+#ifndef _SETAERODATA_H
+#define _SETAERODATA_H
+
+
+
+#endif//_SETAERODATA_H

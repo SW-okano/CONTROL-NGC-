@@ -1,0 +1,6 @@
+#ifndef _SETNAVISTATE_H
+#define _SETNAVISTATE_H
+
+
+
+#endif//_SETNAVISTATE_H
