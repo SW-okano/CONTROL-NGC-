@@ -1,9 +1,15 @@
-#include "arincData.h"
+#include "SetairflameParameter.h"
+#include <stdio.h>
 
-
-
-void controlmain()
+void controlMain()
 {
-	SetAirflameParameter();
-	SetnaviState();
+	WIRESCondition wiresPram;
+	WIRESConditionRCS wiresPramRcs;
+	
+	SetAirflameParameter(&wiresPram, &wiresPramRcs);
+	
+	//SetnaviState();
+	//SetAeroData();
+	//AeroCoefficient();
+	//GimbalResponseModel();
 }

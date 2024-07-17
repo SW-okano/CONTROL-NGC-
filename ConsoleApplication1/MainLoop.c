@@ -13,7 +13,7 @@ void startup();
 int main()
 {
     startup();
-
+    controlMain();
     mPrint("Start main loop\n");
     long befTimerCounter = 0;
     bool commandSafetyProcessCommand = false;
