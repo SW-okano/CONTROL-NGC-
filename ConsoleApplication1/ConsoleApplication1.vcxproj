@@ -144,6 +144,7 @@
     <ClCompile Include="SetAeroData.c" />
     <ClCompile Include="SetAirflameParameter.c" />
     <ClCompile Include="SetnaviState.c" />
+    <ClCompile Include="testfile.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AeroCoeffient.h" />
