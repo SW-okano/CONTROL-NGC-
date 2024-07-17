@@ -54,9 +54,6 @@
     <ClCompile Include="GimbalResponseModel.c">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="testfile.c">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArincData.h">
