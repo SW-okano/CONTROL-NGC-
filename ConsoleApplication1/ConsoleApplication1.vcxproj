@@ -143,7 +143,7 @@
     <ClCompile Include="NavigationSimulation.c" />
     <ClCompile Include="SetAeroData.c" />
     <ClCompile Include="SetAirflameParameter.c" />
-    <ClCompile Include="SetnaviState.c" />
+    <ClCompile Include="SetNaviState.c" />
     <ClCompile Include="testfile.c" />
   </ItemGroup>
   <ItemGroup>
@@ -158,7 +158,7 @@
     <ClInclude Include="Rs422Data.h" />
     <ClInclude Include="SetAeroData.h" />
     <ClInclude Include="SetAirflameParameter.h" />
-    <ClInclude Include="SetnaviState.h" />
+    <ClInclude Include="SetNaviState.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -5,68 +5,68 @@
 
 typedef struct
 {
-	unsigned short MAC; //空力平均翼弦(Mean Aerodynamic Chord)[m]
-	unsigned short Wsp; //翼幅(Wingspan)[m]
-	unsigned short WBA; //主翼基準面積(WingBaseArea)[m]
-	unsigned short BLen; //胴体長(BodyLength)[m]
-	unsigned short CG; //重心(Center of Gravity)
-	unsigned short Mass; //質量(Mass)[kg]
-	unsigned short DMass; //質量(DryMass)[kg]
-	unsigned short Ixx; //x軸周り慣性モーメント[kgm2]
-	unsigned short Iyy; //y軸周りの慣性モーメント[kgm2]
-	unsigned short Izz; //z軸周りの慣性モーメント[kgm2]
-	unsigned short Ixy; //慣性相乗モーメント
-	unsigned short Ixz; //慣性相乗モーメント
-	unsigned short Iyz; //慣性相乗モーメント
-	unsigned short CGx; //x軸方向の重心?
-	unsigned short CGy; //y軸方向の重心?
-	unsigned short CGz; //z軸方向の重心?
-	float dt;
-	float thrust_x; //推力x
-	float thrust_y; //推力y
-	float thrust_z; //推力z
-	float p0;
-	float Ae;
-	float INI_Force;
-	float DI_AlpHz;
-	float DI_AlpZeta;
-	float DI_BetHz;
-	float DI_BetZeta;
-	float DI_PhiHz;
-	float DI_PhiZeta;
-	float DI_TheHz;
-	float DI_TheZeta;
-	float DI_PsiHz;
-	float DI_PsiZeta;
-	float DI_GainSpan;
-	float SM_ReqGain;
-	float SM_ReqPhase;
-	float Refpit;
-	float LimitAile;
-	float LimitEle;
-	float LimitRud;
-	float LimitGim;
-	float EleOmega;
-	float EleZeta;
-	float RudderOmega;
-	float RudderZeta;
-	float GimbalOmega;
-	float GimbalZeta;
-	float AeroCG;
+	double MAC; //空力平均翼弦(Mean Aerodynamic Chord)[m]
+	double Wsp; //翼幅(Wingspan)[m]
+	double WBA; //主翼基準面積(WingBaseArea)[m]
+	double BLen; //胴体長(BodyLength)[m]
+	double CG; //重心(Center of Gravity)
+	double Mass; //質量(Mass)[kg]
+	double DMass; //質量(DryMass)[kg]
+	double Ixx; //x軸周り慣性モーメント[kgm2]
+	double Iyy; //y軸周りの慣性モーメント[kgm2]
+	double Izz; //z軸周りの慣性モーメント[kgm2]
+	double Ixy; //慣性相乗モーメント
+	double Ixz; //慣性相乗モーメント
+	double Iyz; //慣性相乗モーメント
+	double CGx; //x軸方向の重心?
+	double CGy; //y軸方向の重心?
+	double CGz; //z軸方向の重心?
+	double dt;
+	double thrust_x; //推力x
+	double thrust_y; //推力y
+	double thrust_z; //推力z
+	double p0;
+	double Ae;
+	double INI_Force;
+	double DI_AlpHz;
+	double DI_AlpZeta;
+	double DI_BetHz;
+	double DI_BetZeta;
+	double DI_PhiHz;
+	double DI_PhiZeta;
+	double DI_TheHz;
+	double DI_TheZeta;
+	double DI_PsiHz;
+	double DI_PsiZeta;
+	double DI_GainSpan;
+	double SM_ReqGain;
+	double SM_ReqPhase;
+	double Refpit;
+	double LimitAile;
+	double LimitEle;
+	double LimitRud;
+	double LimitGim;
+	double EleOmega;
+	double EleZeta;
+	double RudderOmega;
+	double RudderZeta;
+	double GimbalOmega;
+	double GimbalZeta;
+	double AeroCG;
 
 }WIRESCondition;
 
 typedef struct
 {
-	float Deadx;
-	float Deady;
-	float Deadz;
-	float taux;
-	float tauy;
-	float tauz;
-	float roll;
-	float pitch;
-	float yaw;
+	double Deadx;
+	double Deady;
+	double Deadz;
+	double taux;
+	double tauy;
+	double tauz;
+	double roll;
+	double pitch;
+	double yaw;
 	
 
 }WIRESConditionRCS;

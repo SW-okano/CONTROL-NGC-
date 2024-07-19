@@ -42,7 +42,7 @@
     <ClCompile Include="SetAirflameParameter.c">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="SetnaviState.c">
+    <ClCompile Include="SetNaviState.c">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
     <ClCompile Include="SetAeroData.c">
@@ -83,7 +83,7 @@
     <ClInclude Include="SetAirflameParameter.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="SetnaviState.h">
+    <ClInclude Include="SetNaviState.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="SetAeroData.h">
